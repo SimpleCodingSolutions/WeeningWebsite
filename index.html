@@ -4,7 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Weening · Quit vaping, your way</title>
-<meta name="description" content="Weening helps you cut down or quit vaping with check-ins, a craving SOS button, weekly reviews and a savings tracker. Free, private, and kind.">
+<meta name="description" content="Weening helps you cut down or quit vaping with a craving SOS timer, daily check-ins, weekly reviews, a private journal, and support from a friend. Your data stays on your iPhone.">
+<meta property="og:title" content="Weening · Quit vaping, your way">
+<meta property="og:description" content="Ride out cravings, track how you feel, and quit with a friend. No streak resets, no ads, and your data stays on your iPhone.">
+<meta property="og:image" content="https://simplecodingsolutions.github.io/WeeningWebsite/images/og.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Figtree:wght@400;500;600&display=swap">
@@ -13,7 +20,7 @@
 <body>
 <header class="site-header">
   <div class="container">
-    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Weening</a>
+    <a class="brand" href="index.html"><img class="brand-icon" src="images/apple-touch-icon.png" alt="" width="32" height="32">Weening</a>
     <nav aria-label="Main">
       <ul>
         <li><a href="index.html" aria-current="page">Home</a></li>
@@ -26,34 +33,14 @@
 </header>
 
 <main>
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <h1>Quit vaping, your way.</h1>
-        <p class="lede">Weening helps you cut down or quit with daily check-ins, a craving SOS button, weekly reviews of your progress, and a savings tracker that shows what you're gaining. It's built around one idea: a slip isn't the end of the world.</p>
-        <span class="badge-soon"><span class="dot" aria-hidden="true"></span>Coming soon to the App Store</span>
-      </div>
-      <div class="phone" role="img" aria-label="Weening home screen showing 12 days vape-free, $84 saved toward a goal, and a craving SOS button">
-        <div>
-          <div class="small">Vape-free</div>
-          <div class="big">12 days</div>
-          <div class="small">Any time not vaping counts.</div>
-        </div>
-        <div class="tile">
-          <div class="small">Saved toward concert tickets</div>
-          <strong>$84 of $130</strong>
-          <div class="bar"><span></span></div>
-        </div>
-        <div class="tile">
-          <div class="small">Cravings ridden out</div>
-          <strong>23</strong>
-        </div>
-        <div class="tile">
-          <div class="small">This week</div>
-          <div class="rings"><i class="full"></i><i class="full"></i><i class="part"></i><i class="full"></i><i class="full"></i><i class="full"></i><i></i></div>
-        </div>
-        <div class="sos">Craving right now</div>
-      </div>
+  <section class="hero hero-centered">
+    <div class="container">
+      <h1>Quit vaping, <span class="accent">your way.</span></h1>
+      <p class="lede">Ride out cravings, track how you feel, and quit with a friend. Every vape-free day counts, and a slip never resets your progress.</p>
+      <span class="badge-soon"><span class="dot" aria-hidden="true"></span>Coming soon to the App Store</span>
+    </div>
+    <div class="container hero-image-wrap">
+      <img class="hero-image" src="images/hero.jpg" width="2400" height="947" alt="Three Weening screens: Craving SOS with a 4:40 timer, Home showing 17 days since quit date and $61.66 saved, and Progress showing tough feelings dropping since week one.">
     </div>
   </section>
 
@@ -61,16 +48,33 @@
     <div class="container features-grid">
       <div class="feature">
         <h2>Free. Really free.</h2>
-        <p>Everything you need to quit is free, with no paywalls and no surprise subscriptions. Optional tips help keep the app going.</p>
+        <p>Everything you need to quit is free, with no paywalls and no ads. Optional tips help keep the app going.</p>
+      </div>
+      <div class="feature">
+        <h2>Better with a friend.</h2>
+        <p>Pick a quit date together, share your wins, and text your people in one tap when a craving hits.</p>
       </div>
       <div class="feature">
         <h2>Your data stays on your phone.</h2>
-        <p>No accounts, no tracking, no ads. What you log, including your journal and voice notes, never leaves your iPhone.</p>
+        <p>No accounts and no tracking. Your check-ins, moods, and journal never leave your iPhone.</p>
       </div>
-      <div class="feature">
-        <h2>Built on the science of quitting.</h2>
-        <p>Trigger tracking, a 5-minute craving timer, and weekly reviews that show what actually works for you.</p>
-      </div>
+    </div>
+  </section>
+
+  <section class="gallery" aria-labelledby="gallery-title">
+    <div class="container">
+      <h2 id="gallery-title" class="section-title">A look inside</h2>
+      <p class="section-sub">Swipe through what Weening does, from the first craving to feeling better.</p>
+    </div>
+    <div class="gallery-track" tabindex="0" aria-label="App screenshots, scroll sideways">
+      <img src="images/screen-1.jpg" width="660" height="1434" loading="lazy" alt="Quit vaping without the guilt. Home screen with a live vape-free counter and money saved.">
+      <img src="images/screen-2.jpg" width="660" height="1434" loading="lazy" alt="Better with a friend. Home screen showing You and Jess are in this together.">
+      <img src="images/screen-3.jpg" width="660" height="1434" loading="lazy" alt="Ride out the craving. Craving SOS with a five-minute timer and guided breathing.">
+      <img src="images/screen-4.jpg" width="660" height="1434" loading="lazy" alt="Slipped? Keep going. A prompt that asks if you rode out the craving, saying either way you showed up.">
+      <img src="images/screen-5.jpg" width="660" height="1434" loading="lazy" alt="Watch yourself feel better. Mood rising from 1.6 to 4.3 and irritability falling since week one.">
+      <img src="images/screen-6.jpg" width="660" height="1434" loading="lazy" alt="Learn what sets you off. Top triggers this week and the coping strategies that worked.">
+      <img src="images/screen-7.jpg" width="660" height="1434" loading="lazy" alt="Say it, write it, keep it private. A journal of entries from before and after the quit date.">
+      <img src="images/screen-8.jpg" width="660" height="1434" loading="lazy" alt="Make it yours. Settings with five color themes, Rose selected.">
     </div>
   </section>
 
