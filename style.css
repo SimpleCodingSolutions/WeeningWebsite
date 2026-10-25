@@ -290,3 +290,11 @@ details p { margin: 0 0 16px; color: var(--muted); }
   .hero-image { border-radius: 18px; }
   .gallery-track img { width: 220px; }
 }
+
+.site-footer .social { display: inline-flex; align-items: center; gap: 6px; }
+.follow { margin: 18px 0 0; color: var(--muted); font-size: 16px; }
+
+.giving { padding-block: 0 64px; }
+.giving-inner { max-width: 720px; }
+.giving-inner p { font-size: 18px; margin: 0 0 10px; }
+.giving-note { color: var(--muted); font-size: 15px !important; }
